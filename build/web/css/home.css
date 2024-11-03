@@ -1,0 +1,85 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    width: 900vh;
+    height: 120vh;
+    background-image: url(../imgHome/fondo.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+/**********IMAGENES**********/
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 80px;
+
+}
+
+p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    margin: 0 20px 0 0;
+}
+
+.card {
+    width: 260px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card01 {
+    background-image: url(../imgHome/ca.jpg);
+}
+
+.card02 {
+    background-image: url(../imgHome/dep.jpg);
+}
+
+.card03 {
+    background-image: url(../imgHome/f.jpeg);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h5 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    text-align: justify;
+}
+
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 12px;
+}
+
+.card h5{
+    font-size: 15px;
+}
+

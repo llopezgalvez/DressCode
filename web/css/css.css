@@ -1,0 +1,64 @@
+#txtDatos{
+    color: #83746c;
+}
+
+#txtInfoEmail{
+    color: #dbc3b3;
+}
+
+#formulario{
+    margin: 0 auto;
+    margin-top: 2px;
+}
+
+option{
+    color:gray;
+}
+
+#buttonReady{
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 75px;
+    height: 30px;
+    background-color: #948883;
+    color: #dbc3b3;
+    border: none;
+    border-radius: 5px;
+}
+
+#buttonReady:hover{
+    background-color: #dbc3b3;
+    color: #948883;
+    border: none;
+    border-radius: 5px;
+}
+
+.table{
+    margin: 0 auto;
+    margin-top: 5px;
+    border-color: #dbc3b3;
+}
+
+#etiqueta{
+    color: #344c6e;
+}
+
+#datos{
+    color: #948883;
+}
+
+.row-link {
+    text-decoration: none;
+    color: inherit;
+    display: table-row; /* Hace que el enlace se comporte como una fila de tabla */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+/* Cambia el estilo cuando se pasa el cursor por encima de la fila */
+.row-link:hover {
+    background-color: #f5f5f5;
+}
+
+#registroData{
+    margin-top: 5px;
+}
